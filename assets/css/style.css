@@ -37,9 +37,10 @@ li {
   font-weight: bold;
   display: inline-flex;
   align-items: center;
-  padding: 1.5rem 3rem;
   border-radius: 70px;
   justify-content: space-between;
+  gap: 2rem;
+  padding-block: 1rem;
 }
 .main-button img {
   width: 50px;
@@ -50,8 +51,8 @@ li {
 section {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   justify-content: center;
+  gap: 2rem;
 }
 
 h2 {
@@ -109,7 +110,7 @@ h4 {
 
 /* ARTICLE */
 
-h3 {
+article h3 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
